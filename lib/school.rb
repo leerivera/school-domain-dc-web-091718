@@ -34,7 +34,7 @@ class School
     
     def sort
       
-      @roster.values.sort
+      @roster.sort_by {|key, value| key}
       
     end
     
