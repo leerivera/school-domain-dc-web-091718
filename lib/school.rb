@@ -35,6 +35,7 @@ class School
     def sort
       
       @roster.sort_by {|key, value| key}
+      binding.pry
       
     end
     
