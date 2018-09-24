@@ -38,7 +38,7 @@ class School
         value.sort 
         
         binding.pry
-      
+      end
     end
     
 end
